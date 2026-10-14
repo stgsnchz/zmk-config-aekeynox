@@ -14,7 +14,7 @@
 // #define KB_LAYOUT_BEPO              // France
 // #define KB_LAYOUT_BEPOLAR           // France
 // #define KB_LAYOUT_DVORAK            // US
-// #define KB_LAYOUT_ERGOL             // France
+#define KB_LAYOUT_ERGOL             // France
 // #define KB_LAYOUT_ERGLACE           // France
 // #define KB_LAYOUT_QWERTY_BR         // Brazil
 // #define KB_LAYOUT_QWERTY_DK         // Denmark
@@ -58,7 +58,7 @@
 // Alternatively, you may uncomment the last line to use the outer columns
 // for 4 extra alpha keys instead of the default Tab, Escape, Backspace, Enter.
 
-// #define KB_EXTRA_LAYERS_AUTO      // default (recommended)
+#define KB_EXTRA_LAYERS_AUTO      // default (recommended)
 // #define KB_EXTRA_LAYERS_ALTGR     // default for LV, PL, RO
 // #define KB_EXTRA_LAYERS_ALPINE    // default for CH, DE, IT
 // #define KB_EXTRA_LAYERS_IBERICAN  // default for BR, ES, LATAM, PT
@@ -104,7 +104,7 @@
 
 // Uncomment one of the following lines to pick your preferred hold-tap config.
 
-// #define HT_NONE
+#define HT_NONE
 // #define HT_THUMB_TAPS
 // #define HT_HOME_ROW_MODS  // (default behavior)
 // #define HT_TWO_THUMB_KEYS
