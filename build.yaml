@@ -86,7 +86,8 @@ include:
     snippet: studio-rpc-usb-uart
     cmake-args: *cmake-args
   - board: nice_nano@2//zmk
-    shield: lily58_right
+    #shield: lily58_right
+    shield: lily58_right nice_view_adapter nice_view_gem
     artifact-name: lily58_right
 
     # Temper/Chocofi + nice!nano v2
